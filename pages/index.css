@@ -9,9 +9,11 @@
 
 .header {
   padding: 30px 80px 40px;
-  background-color: #fff;
-  background-image: url(../images/background_header.svg);
+  background: center / cover no-repeat #fff url(../images/background_header.svg);
   position: relative;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__title {
@@ -28,6 +30,17 @@
   right: 5px;
   width: 646px;
   height: 568px;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__paragraph {
+  margin: 0;
 }
 
 .nav {
