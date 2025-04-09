@@ -37,7 +37,7 @@
     flex-wrap: wrap;
     gap: 100px;
     justify-content: center;
-    font-family: "Noto Serif"; 
+    font-family: "Noto Serif", "Times New Roman", serif; 
     font-style: normal; 
     font-weight: normal; 
     font-size: 16px; 
